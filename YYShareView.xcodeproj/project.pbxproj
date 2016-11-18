@@ -15,6 +15,8 @@
 		144F10381DDEACE00082334B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144F10361DDEACE00082334B /* LaunchScreen.storyboard */; };
 		144F10431DDEACE00082334B /* YYShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 144F10421DDEACE00082334B /* YYShareViewTests.m */; };
 		144F104E1DDEACE00082334B /* YYShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 144F104D1DDEACE00082334B /* YYShareViewUITests.m */; };
+		144F10621DDEAD9A0082334B /* YYShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 144F10611DDEAD9A0082334B /* YYShareView.m */; };
+		144F10641DDEADA70082334B /* YYShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144F10631DDEADA70082334B /* YYShareView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		144F10491DDEACE00082334B /* YYShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		144F104D1DDEACE00082334B /* YYShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYShareViewUITests.m; sourceTree = "<group>"; };
 		144F104F1DDEACE00082334B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144F10601DDEAD9A0082334B /* YYShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYShareView.h; sourceTree = "<group>"; };
+		144F10611DDEAD9A0082334B /* YYShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYShareView.m; sourceTree = "<group>"; };
+		144F10631DDEADA70082334B /* YYShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYShareView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +108,9 @@
 			children = (
 				144F102B1DDEACE00082334B /* AppDelegate.h */,
 				144F102C1DDEACE00082334B /* AppDelegate.m */,
+				144F10601DDEAD9A0082334B /* YYShareView.h */,
+				144F10611DDEAD9A0082334B /* YYShareView.m */,
+				144F10631DDEADA70082334B /* YYShareView.xib */,
 				144F102E1DDEACE00082334B /* ViewController.h */,
 				144F102F1DDEACE00082334B /* ViewController.m */,
 				144F10311DDEACE00082334B /* Main.storyboard */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144F10641DDEADA70082334B /* YYShareView.xib in Resources */,
 				144F10381DDEACE00082334B /* LaunchScreen.storyboard in Resources */,
 				144F10351DDEACE00082334B /* Assets.xcassets in Resources */,
 				144F10331DDEACE00082334B /* Main.storyboard in Resources */,
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144F10621DDEAD9A0082334B /* YYShareView.m in Sources */,
 				144F10301DDEACE00082334B /* ViewController.m in Sources */,
 				144F102D1DDEACE00082334B /* AppDelegate.m in Sources */,
 				144F102A1DDEACE00082334B /* main.m in Sources */,

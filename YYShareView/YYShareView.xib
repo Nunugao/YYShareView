@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YYShareView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2xd-Q3-nxc">
+                    <rect key="frame" x="0.0" y="280" width="320" height="200"/>
+                    <subviews>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0c-jS-nOP">
+                            <rect key="frame" x="133" y="19" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="DH0-9e-Iik"/>
+                                <constraint firstAttribute="height" constant="55" id="VqJ-GP-Ad8"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="Circle_share"/>
+                            <connections>
+                                <action selector="touchBut:" destination="iN0-l3-epB" eventType="touchUpInside" id="6RM-XQ-DkX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmN-LO-6bc">
+                            <rect key="frame" x="236" y="19" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="Rjx-U2-Xbc"/>
+                                <constraint firstAttribute="width" constant="55" id="ph7-Mm-tml"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="wexin"/>
+                            <connections>
+                                <action selector="touchBut:" destination="iN0-l3-epB" eventType="touchUpInside" id="XtW-T2-Tdc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5L-rN-vFu">
+                            <rect key="frame" x="27" y="19" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="jhB-tq-QO8"/>
+                                <constraint firstAttribute="height" constant="55" id="v19-eE-Kmb"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="Copy_link_share"/>
+                            <connections>
+                                <action selector="touchBut:" destination="iN0-l3-epB" eventType="touchUpInside" id="1tw-aL-CcR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6a-xS-yMo">
+                            <rect key="frame" x="238" y="89" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="XYF-dW-Gcx"/>
+                                <constraint firstAttribute="width" constant="55" id="f8b-1P-nYS"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="weibo"/>
+                            <connections>
+                                <action selector="touchBut:" destination="iN0-l3-epB" eventType="touchUpInside" id="4AF-ke-zel"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXq-17-DJl">
+                            <rect key="frame" x="27" y="89" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="5f7-Ay-CNr"/>
+                                <constraint firstAttribute="height" constant="55" id="XXI-wh-4h7"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="qq_space_share"/>
+                            <connections>
+                                <action selector="touchBut:" destination="iN0-l3-epB" eventType="touchUpInside" id="T5d-ae-6fd"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="piv-mT-iEL">
+                            <rect key="frame" x="149" y="165" width="21" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="21" id="UaS-LW-1Nm"/>
+                                <constraint firstAttribute="height" constant="21" id="ijn-PV-qXd"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="cancel_share"/>
+                            <connections>
+                                <action selector="YYCancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="2y5-0b-nVK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D7y-pi-mJh">
+                            <rect key="frame" x="133" y="89" width="55" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="nfI-O2-IV2"/>
+                                <constraint firstAttribute="height" constant="55" id="yi5-Ol-GSF"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="qq"/>
+                            <connections>
+                                <action selector="touchBut:" destination="iN0-l3-epB" eventType="touchUpInside" id="EDr-QS-X3e"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="TXq-17-DJl" firstAttribute="top" secondItem="l5L-rN-vFu" secondAttribute="bottom" constant="15" id="0Av-9z-1cO"/>
+                        <constraint firstItem="piv-mT-iEL" firstAttribute="centerX" secondItem="2xd-Q3-nxc" secondAttribute="centerX" id="4xH-Ka-HD7"/>
+                        <constraint firstItem="U6a-xS-yMo" firstAttribute="leading" secondItem="D7y-pi-mJh" secondAttribute="trailing" constant="50" id="5bc-Kt-zta"/>
+                        <constraint firstItem="D7y-pi-mJh" firstAttribute="leading" secondItem="TXq-17-DJl" secondAttribute="trailing" constant="51" id="73s-xS-WDV"/>
+                        <constraint firstItem="Y0c-jS-nOP" firstAttribute="centerY" secondItem="2xd-Q3-nxc" secondAttribute="centerY" constant="-53.5" id="7sO-H1-rTo"/>
+                        <constraint firstItem="TmN-LO-6bc" firstAttribute="top" secondItem="2xd-Q3-nxc" secondAttribute="top" constant="19" id="UxV-NC-DuQ"/>
+                        <constraint firstItem="piv-mT-iEL" firstAttribute="centerY" secondItem="2xd-Q3-nxc" secondAttribute="centerY" constant="75.5" id="Xwo-tt-Ln5"/>
+                        <constraint firstItem="l5L-rN-vFu" firstAttribute="top" secondItem="2xd-Q3-nxc" secondAttribute="top" constant="19" id="ZFV-aY-ZoI"/>
+                        <constraint firstAttribute="width" constant="320" id="a78-ZF-xFn"/>
+                        <constraint firstItem="Y0c-jS-nOP" firstAttribute="leading" secondItem="l5L-rN-vFu" secondAttribute="trailing" constant="51" id="dAy-qc-FGR"/>
+                        <constraint firstItem="U6a-xS-yMo" firstAttribute="top" secondItem="TmN-LO-6bc" secondAttribute="bottom" constant="15" id="ghI-jA-eZf"/>
+                        <constraint firstItem="Y0c-jS-nOP" firstAttribute="centerX" secondItem="2xd-Q3-nxc" secondAttribute="centerX" id="mjH-gb-YEh"/>
+                        <constraint firstItem="D7y-pi-mJh" firstAttribute="centerX" secondItem="2xd-Q3-nxc" secondAttribute="centerX" id="p2S-Pu-0qA"/>
+                        <constraint firstAttribute="height" constant="200" id="tLV-nU-h7o"/>
+                        <constraint firstItem="TmN-LO-6bc" firstAttribute="leading" secondItem="Y0c-jS-nOP" secondAttribute="trailing" constant="48" id="tcT-v8-NDj"/>
+                        <constraint firstItem="D7y-pi-mJh" firstAttribute="centerY" secondItem="2xd-Q3-nxc" secondAttribute="centerY" constant="16.5" id="toh-lO-xlv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2xd-Q3-nxc" secondAttribute="bottom" id="2Hg-th-m0k"/>
+                <constraint firstItem="2xd-Q3-nxc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bS3-4A-Eug"/>
+                <constraint firstAttribute="trailing" secondItem="2xd-Q3-nxc" secondAttribute="trailing" id="yRN-yJ-9qD"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ShareView" destination="2xd-Q3-nxc" id="N5w-hO-uCG"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Circle_share" width="55" height="55"/>
+        <image name="Copy_link_share" width="55" height="55"/>
+        <image name="cancel_share" width="21" height="21"/>
+        <image name="qq" width="55" height="55"/>
+        <image name="qq_space_share" width="55" height="55"/>
+        <image name="weibo" width="55" height="55"/>
+        <image name="wexin" width="55" height="55"/>
+    </resources>
+</document>
